@@ -1,0 +1,86 @@
+#side-menu {
+    margin-top: 63px;
+    background: $blue;
+    height: 100%;
+}
+
+li a {
+    color: white;
+}
+
+div h3 {
+    color: white;
+}
+
+.side-menu__item {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+.navbar-nav {
+    margin-top: 20px;
+}
+
+.nav-link {
+    font-family: Circe;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+color: #FFFFFF;
+}
+
+.menu__title {
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+}
+
+@media (max-width: 575.98px) { 
+
+    .side-menu__item {
+        text-align: center;
+        margin-top: 0px;
+    }
+
+    .navbar-nav {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu__title {
+        text-align: center;
+    }    
+
+    .side-menu__item {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    } 
+   
+   // Малые девайсы («ландшафтные», >= 575px)
+   @media (min-width: 576px) and (max-width: 767.98px) { 
+   .press {
+       margin-left: 30px;
+   }
+    }
+   
+   // Средние девайсы («таблетки», >= 768px) 
+   @media (min-width: 768px) and (max-width: 991.98px) { 
+   
+    }
+   
+   // Большие девайсы (большие десктопы, >= 992px)
+   @media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+    }
+   
+   // Большие девайсы (большие десктопы, >= 1200px)
+   @media (min-width: 1200px) { 
+   
+    }

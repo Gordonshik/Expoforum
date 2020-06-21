@@ -1,0 +1,242 @@
+$green: #30BCC9;
+$blue: #2378FC;
+$yellow: #FFC41E;
+$red: #F6404F;
+$iceCream: #FAF3E3;
+$black: #2E373B;
+$grey: #E0E0E0;
+
+
+#first-screen {
+    background-image: url(../../../img/svg/bgc.svg);
+    background-repeat: no-repeat;
+}
+
+body {
+    overflow-X: hidden;
+}
+
+.logo {
+    margin-top: 0.6em;
+} 
+
+.nav-link {
+    margin-top: -10px;
+}
+
+
+
+
+.nav-link {
+    color: #fff;
+}
+
+.navbar-nav { 
+    color: #fff;
+    
+    }
+
+.search-globe {
+    border: rgb(255, 255, 255);
+}
+
+.fa-caret-square-down {
+    color: white;
+}
+
+.title__arrow {
+    color: black;
+}
+
+
+
+
+.wrapper {
+    margin-top: 314px;
+    
+    .wrapper__h3 {
+        font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+margin-left: 40px;
+margin-top: 30px;
+    }
+
+    .wrapper__text {
+        color: #fff;
+        margin-left: 40px;
+    }
+
+    .first-screen__block-item {
+        width: 255px;
+    height: 148px;
+    }
+
+    .first_item {
+        background: $blue;
+        width: 255px;
+height: 148px;
+    }
+    
+    .second_item {
+        background: $green;
+        width: 255px;
+height: 148px;
+    }
+    
+    .third_item {
+        background: $yellow;
+        width: 255px;
+height: 175px;
+    }
+    
+    .fourth_item {
+        background: $red;
+        width: 255px;
+height: 175px;
+    }
+}
+
+.title {
+    margin-top: 200px;
+    
+    .title__h1 {
+        font-style: normal;
+font-weight: bold;
+font-size: 60px;
+line-height: 160%;
+text-transform: uppercase;
+color: #FFFFFF;
+    }
+
+    .title__text {
+        font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 140%;
+color: #FFFFFF;
+    }
+    
+    .title__about {
+        font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+color: #FFFFFF;
+margin-top: 10px;
+    }
+}
+
+.first-screen__block-item {
+    margin-bottom: 30px;
+}
+
+.title {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+@media (max-width: 575.98px) { 
+    .title {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 3.5px;
+        margin-right: 0px;
+        display: block;
+        margin: 100px auto -250px auto;
+    }
+
+    .logo__img {
+        margin-left: 35px;
+    }
+
+    .nav-link {
+        text-align: center;
+        margin-top: 5px;
+    }
+
+  
+
+ }
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .title {
+        font-size: 16px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 0px;
+    }
+
+    .logo__img {
+        margin-left: -50px;
+    }
+
+    .nav-link {
+        text-align: center;
+        margin-top: 5px;
+    }
+    
+ }
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .card-body {
+        margin: 0 auto;
+        display: block;
+    }
+
+
+    .title {
+        font-size: 16px;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .title__h1 {
+        font-size: 30px;
+    }
+        .title__text {
+            font-size: 30px;
+        }
+
+        .logo {
+           margin-left: -130px;
+        } 
+
+        .first-screen__block-item {
+            width: 300px;
+            height: 300px;
+        }
+
+ }
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+#navbarNav {
+    margin-left: -16em;
+}
+
+.first-screen__block-item {
+    width: 100px;
+    height: 100px;
+}
+
+.card-body {
+    margin-right: -300px;
+    margin-top: -0px;
+}
+
+.title__h1 {
+    margin-right: -230px;
+}
+ }
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+ }

@@ -1,0 +1,76 @@
+#footer {
+    background: $green;
+}
+
+.list-item {
+    font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135%;
+list-style-type: none;
+color: $blue;
+}
+
+.list__h3 {
+    font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #FFFFFF;
+margin-bottom: 20px;
+}
+
+.list__form {
+    width: 215px;
+height: 40px;
+}
+
+.we-sm_icons {
+    font-size: 30px;
+    margin-left: -32px;
+}
+
+.list-of-lists {
+    margin-top: 60px;
+}
+
+
+.list__text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 135%;
+    color: white;
+}
+
+.list {
+    margin-right: 30px;
+}
+
+@media (max-width: 575.98px) { 
+    .list-of-lists {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

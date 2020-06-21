@@ -1,0 +1,172 @@
+#news {
+    background: $iceCream;
+}
+
+.ad-pictures {
+    margin-top: 75px;
+}
+
+.news-list {
+    margin-top: 75px;
+}
+
+.ad-pictures__img {
+width: 445px;
+height: 215px;
+}
+
+.first-img {
+    margin-bottom: 59px;
+}
+
+.news-list__h3 {
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: $blue;
+}
+
+.news-list__item-text {
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 135%;
+color: $red;
+}
+
+
+.news-list__item-img {
+    width: 160px;
+    height: 120px;
+    margin-right: 30px;
+}
+
+.news-list__item {
+    margin-top: 30px;
+    margin-bottom: 32px;
+}
+
+.news-text__text {
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: $blue;
+}
+
+.news-text__all-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 130%;
+    text-align: right;
+    letter-spacing: -0.01em;
+    text-decoration-line: underline;
+    color: $blue;
+}
+
+.news-list__h3 {
+    width: 340px;
+}
+
+@media (max-width: 575.98px) { 
+
+
+    .ad-pictures__img {
+        width: 400px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news-list {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .ad-pictures {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .news-text {
+        width: 350px;
+        text-align: center;
+    }
+
+    .news-list__item-img {
+        display: none;
+    }
+
+    .news-list__item {
+        display: block;
+       margin: 0 auto;
+    }
+
+    .news-text__all-news {
+        margin-left: -30px;
+    }
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+    .news-text {
+        width: 500px;
+    }
+
+    .ad-pictures__img {
+        width: 500px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news-list {
+        display: block;
+        margin: 0 auto;
+        margin-left: 20px;
+    }
+
+    .ad-pictures {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .ad-pictures__img {
+        width: 700px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .news-list {
+        display: block;
+        margin: 0 auto;
+        margin-left: 110px;
+    }
+
+    .ad-pictures {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .news-text {
+        width: 500px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .news-list__h3 {
+        width: 240px;
+    }
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}

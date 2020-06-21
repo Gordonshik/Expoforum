@@ -1,0 +1,197 @@
+#events { 
+    background: $yellow;
+}
+
+.about__events {
+    color: $blue;
+    font-style: normal;
+font-weight: 500;
+font-size: 30px;
+line-height: 130%;
+letter-spacing: -0.01em;
+}
+
+.all-events__text {
+    color: $blue;
+    font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+text-align: right;
+letter-spacing: -0.01em;
+text-decoration-line: underline;
+}
+
+.all-events__arrow {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.events-list_item-img {
+    margin-bottom: 20px;
+}
+
+.events-list_item-date {
+    margin-bottom: 10px;
+}
+
+.events-list_item-name {
+    margin-bottom: 10px;
+}
+
+.informations {
+    margin-top: 75px;
+    margin-bottom: 55px;
+}
+
+.events-list {
+    margin-bottom: 79px;
+}
+
+.events-list_item-type {
+    width: 326px;
+}
+
+.all-events {
+    margin-left: 500px;
+}
+
+@media (max-width: 575.98px) { 
+.about__events {
+    text-align: center;
+}
+
+.all-events__text {
+    text-align: center;
+}
+}
+
+.events-list_item {
+    .events-list_item-date {
+        font-family: Circe;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 135%;
+color: #2378FC;
+font-family: 'Roboto Condensed', sans-serif;
+    }
+
+.events-list_item-name {
+    font-family: Plumb;
+font-style: normal;
+font-weight: 500;
+font-size: 21px;
+line-height: 130%;
+letter-spacing: -0.01em;
+color: #F6404F;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+    .events-list_item-type {
+        font-family: Circe;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 135%;
+        color: #2378FC;
+       font-family: 'Roboto Condensed', sans-serif;
+    }
+}
+
+@media (max-width: 575.98px) { 
+
+    .informations {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .about__events {
+        text-align: center;
+        font-size: 26px;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .all-events__text {
+        text-align: center;
+        width: 180px;
+    }
+    
+
+    .all-events__text {
+        margin-left: -340px;
+        margin-top: 10px;
+        font-size: 20px;
+        text-align: center;
+    }
+    
+    .events-list_item {
+        margin: 0 auto;
+        display: block;
+    }
+
+}
+
+// Малые девайсы («ландшафтные», >= 575px)
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .events-list_item-img {
+        height: 350px;
+        width: 550px;
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .events-list_item-type {
+    width: 500px;
+    margin-left: 25px;
+    }
+
+    .events-list_item {
+        text-align: center;
+    }
+
+    .all-events__text {
+        
+        margin-left: -340px;
+        margin-top: 10px;
+        width: 200px;
+    }
+
+    .about__events {
+            margin-left: 35px;
+    }
+
+}
+
+// Средние девайсы («таблетки», >= 768px) 
+@media (min-width: 768px) and (max-width: 991.98px) { 
+.all-events__text {
+    margin-left: 20px;
+    margin-top: -40px;
+    width: 200px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 992px)
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.events-list_item-img {
+    height: 250px;
+    width: 300px;
+}
+
+.events-list_item-type {
+width: 200px;
+}
+
+.all-events__text {
+    margin-left: 270px;
+    margin-top: -40px;
+}
+}
+
+// Большие девайсы (большие десктопы, >= 1200px)
+@media (min-width: 1200px) { 
+
+}
